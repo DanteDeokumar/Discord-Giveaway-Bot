@@ -9,6 +9,8 @@ client=commands.Bot(command_prefix="!")
 
 @client.command()
 @commands.has_role("Admin")
+
+#Under this line says gstart. That is the command you use. You can change if you want.
 async def gstart(ctx, mins : int, *, prize: str):
 	embed = discord.Embed(title = "Giveaway!", description = f"{prize}", color = ctx.author.color)
 
