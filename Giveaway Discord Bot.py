@@ -41,4 +41,5 @@ async def gstart(ctx, mins : int, *, prize: str):
 async def on_ready():
 	print("Bot is ready")
 
-client.run("")
+#Where it says Paste your Discord Token Here do it or the code will not work.
+client.run("Paste your Discord Token Here")
